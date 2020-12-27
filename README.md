@@ -11,4 +11,4 @@ jpa 적용시 고려 할점
 2. 테이블에 공통으로 사용되는 컬럼
  - BaseEntity 를 두고 상속 하자.
 
-실무에서는 join 을 LAZY 만.... 즉시 가져와야 하는 경우는 join fetch
+실무에서는 join 을 LAZY 만.... 즉시 가져와야 하는 경우는 fetch join
