@@ -19,3 +19,4 @@ jpa 적용시 고려 할점
 location 은 Point, Polygon 으로 만들고, @Embeddable, @Embedded 사용
  - 근데... 이게 데이터 공유가 되어 버린다.
  - 여러 객체에서 set을 할 경우, new 로 값을 복사해서 사용해야 함, 안 그럼.... 공유 되어 버림
+ - immutable Object 로 만들고, 생성자와 get만 만듬. set 만들지 않음 ----- > set 없음 db 에서 값이 바인딩 되나? 확인 해 봐야 겠네
