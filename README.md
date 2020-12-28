@@ -17,3 +17,5 @@ jpa 적용시 고려 할점
 @ManyToOne, @OneToOne 은 기본이 즉시 로딩이므로 지연 로딩으로 변경 
 
 location 은 Point, Polygon 으로 만들고, @Embeddable, @Embedded 사용
+ - 근데... 이게 데이터 공유가 되어 버린다.
+ - 여러 객체에서 set을 할 경우, new 로 값을 복사해서 사용해야 함, 안 그럼.... 공유 되어 버림
