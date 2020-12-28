@@ -15,3 +15,5 @@ jpa 적용시 고려 할점
 
 모든 연관 관계는 지연 로딩으로
 @ManyToOne, @OneToOne 은 기본이 즉시 로딩이므로 지연 로딩으로 변경 
+
+location 은 Point, Polygon 으로 만들고, @Embeddable, @Embedded 사용
