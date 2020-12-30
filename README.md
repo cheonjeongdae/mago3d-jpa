@@ -25,3 +25,5 @@ location 은 Point, Polygon 으로 만들고, @Embeddable, @Embedded 사용
   - 1대 다 단방향
   - 값 타입 Entity를 만들고, 그 안에 멤버 변수로 값 타입을 가짐
   ex) AddressEntity, Address
+
+Named Query 활용
